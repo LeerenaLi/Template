@@ -1,7 +1,7 @@
 .questions {
     background: url("../../img/Background2.jpg") no-repeat;
     min-height: 621px;
-    background-size: 1600px auto;
+    background-size: cover;
     background-position: top center;
 }
 

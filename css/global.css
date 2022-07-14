@@ -58,4 +58,10 @@ section {
     padding: 70px 0;
 }
 
+.page {
+    background: url("../img/Background.jpg") no-repeat;
+    background-size: 1600px auto;
+    background-position: top center;
+}
+
 

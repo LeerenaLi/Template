@@ -1,0 +1,38 @@
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__logo {
+    width: 68px;
+    height: 68px;
+}
+
+.contacts__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contacts__phone {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 3px;
+}
+
+.contacts__open-modal {
+    width: 132px;
+    font-size: 16px;
+    line-height: 19px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+}
+
+.contacts__phone:hover {
+    color: #15A9CB;
+}
+
+.contacts__open-modal:hover {
+    color: #15A9CB;
+    border-bottom: 1px solid #15A9CB;
+}

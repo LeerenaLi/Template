@@ -1,6 +1,8 @@
 .present {
     max-width: 1050px;
     margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .present__title {
@@ -18,7 +20,7 @@
     line-height: 31px;
     text-align: center;
     color: var(--text-color, rgba(255, 255, 255, 0.86));
-    margin-bottom: 90px;
+    margin-bottom: 88px;
 }
 
 @media (max-width: 1200px) {
@@ -69,13 +71,13 @@
     }
     .present__title {
         font-size: 20px;
-        line-height: 23px;
-        margin-bottom: 23px;
+        line-height: 25px;
+        margin-bottom: 22px;
     }
     .present__text {
         font-size: 14px;
         line-height: 20px;
-        margin-bottom: 54px;
+        margin-bottom: 53px;
         height: 77px;
         overflow: hidden;
     }

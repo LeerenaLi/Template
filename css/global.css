@@ -62,12 +62,14 @@ section {
     background: url("../img/Background.jpg") no-repeat;
     background-size: 1600px auto;
     background-position: top center;
+    padding-top: 40px;
 }
 
 @media (max-width: 1200px) {
     .page {
         background-size: 1200px auto;
         background-position: top center;
+        padding-top: 26px;
     }
 }
 
@@ -79,10 +81,18 @@ section {
     }
 }
 
+@media (max-width: 768px) {
+    .page {
+        background-size: 940px auto;
+        background-position: top left;
+    }
+}
+
 @media (max-width: 440px) {
     .page {
-        background-size: 860px auto;
+        background-size: 800px auto;
         background-position: top left;
+        padding-top: 15px;
     }
     .container {
         padding: 0 15px;

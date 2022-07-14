@@ -49,6 +49,10 @@
     display: none;
 }
 
+.contacts__logo_footer {
+    margin-right: 19px;
+}
+
 @media (max-width: 1200px) {
     .contacts__logo {
         width: 60px;

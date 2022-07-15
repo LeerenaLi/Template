@@ -24,6 +24,8 @@
 }
 
 .questions__submit {
+    width: 218px;
+    height: 48px;
     padding: 11px 38px;
 }
 

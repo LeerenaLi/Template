@@ -1,33 +1,16 @@
 .header {
-    min-height: 732px;
-    background: url("../../img/Background.jpg") no-repeat;
-    background-size: cover;
-    background-position: top center;
-    padding-top: 40px;
+    min-height: 68px;
 }
 
 @media (max-width: 1200px) {
     .header {
-        min-height: 528px;
-        padding-top: 26px;        
+        min-height: 60px;
         padding-bottom: 0;
     }
 }
-
-@media (max-width: 1024px) {
-    .header {
-        background: url("../../img/Background_media.jpg") no-repeat;
-    }
-}
-
-
 
 @media (max-width: 440px) {
     .header {
-        min-height: 441px;
-        background: url("../../img/Background_small.jpg") no-repeat;
-        background-size: cover;
-        background-position: top center;
-        padding-bottom: 0;
+        min-height: 30px;
     }
 }

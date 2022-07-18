@@ -36,7 +36,9 @@
     .present__text {
         font-size: 18px;
         line-height: 25px;
-        margin-bottom: 60px;
+        margin-bottom: 57px;
+        max-width: 771px;
+        padding-left: 7px;
     }
 }
 
@@ -67,18 +69,19 @@
 
 @media (max-width: 440px) {
     .present {
-        padding: 65px 0;
+        padding: 66px 0 65px 0;
     }
     .present__title {
         font-size: 20px;
-        line-height: 25px;
-        margin-bottom: 22px;
+        line-height: 23px;
+        margin-bottom: 26px;
     }
     .present__text {
         font-size: 14px;
         line-height: 20px;
-        margin-bottom: 53px;
+        margin-bottom: 54px;
         height: 77px;
         overflow: hidden;
+        padding-left: 0;
     }
 }

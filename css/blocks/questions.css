@@ -47,16 +47,24 @@
         background: url("../../img/Background2_media.jpg");
         background-size: cover;
         background-position: top center;
-        padding-top: 56px;
+        padding-top: 69px;
+        padding-bottom: 59px;
     }
     .questions__title {
         font-size: 32px;
         line-height: 38px;
         margin-bottom: 16px;
+        padding-right: 10px;
     }
     .questions__subtitle {
         font-size: 20px;
         line-height: 23px;
+        padding-left: 17px;
+        margin-bottom: 49px;
+    }
+    .questions__text {
+        font-size: 17px;
+        line-height: 20px;
     }
 }
 
@@ -66,17 +74,19 @@
         background: url("../../img/Background2_small.jpg");
         background-size: cover;
         background-position: top center;
-        padding: 30px 0;
+        padding: 31px 0 29px 0;
     }
     .questions__title {
         font-size: 20px;
         line-height: 23px;
-        margin-bottom: 10px;
+        margin-bottom: 12px;
+        padding-right: 2px;
     }
     .questions__subtitle {
         font-size: 12px;
         line-height: 14px;
         margin-bottom: 35px;
+        padding-left: 0;
     }
     .questions__text {
         font-size: 11px;

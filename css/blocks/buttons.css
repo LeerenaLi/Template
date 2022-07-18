@@ -31,17 +31,27 @@
 
 @media (max-width: 1200px) {
     .present__btn {
-        padding: 10px 49px;
+        padding: 10px 50px 9px 47px;
+        width: 202px;
+        height: 48px;
+    }
+    .questions__submit {
+        padding: 11px 35px 11px 33px;
+        letter-spacing: 0.4px;
     }
 }
 
 @media (max-width: 440px) {
     .present__btn {
+        width: 160px;
+        height: 38px;
         font-size: 16px;
         line-height: 19px;
         padding: 9px 38px;
     }
     .questions__submit {
+        width: 174px;
+        height: 38px;
         padding: 10px 26px;
         font-size: 16px;
         line-height: 19px;

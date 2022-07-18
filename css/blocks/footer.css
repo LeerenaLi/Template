@@ -30,8 +30,12 @@
 }
 
 @media (max-width: 1200px) {
+    .footer {
+        padding-top: 37px;
+    }
     .footer__autor {
         opacity: 0.5;
+        padding-right: 22px;
     }
 }
 
@@ -53,5 +57,13 @@
         color: #FFFFFF;
         opacity: 0.5;
         text-align: center;
+    }
+}
+
+@media (max-width: 440px) {
+    .footer__copy {
+        font-weight: 500;
+        font-size: 8px;
+        line-height: 11px;
     }
 }

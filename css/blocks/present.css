@@ -1,8 +1,10 @@
 .present {
-    max-width: 1050px;
     margin: 0 auto;
-    padding-top: 119px;
+    padding-top: 228px;
     padding-bottom: 120px;
+    background: url("../../img/Background.jpg") no-repeat;
+    background-position: top center;
+    background-size: cover;
 }
 
 .present__title {
@@ -15,6 +17,8 @@
 }
 
 .present__text {
+    max-width: 960px;
+    margin: 0 auto;
     font-weight: 400;
     font-size: 22px;
     line-height: 31px;
@@ -25,10 +29,11 @@
 
 @media (max-width: 1200px) {
     .present {
-        max-width: 840px;
-        padding: 70px 0;
+        padding: 156px 0 70px 0;
     }
     .present__title {
+        max-width: 780px;
+        margin: 0 auto;
         font-size: 40px;
         line-height: 47px;
         margin-bottom: 28px;
@@ -38,13 +43,19 @@
         line-height: 25px;
         margin-bottom: 57px;
         max-width: 771px;
-        padding-left: 7px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .present {
+        background: url("../../img/Background_media.jpg") no-repeat;
+        background-size: cover;
     }
 }
 
 @media (max-width: 768px) {
     .present {
-        padding: 65px 0;
+        padding: 150px 0 65px 0;
     }
     .present__title {
         font-size: 32px;
@@ -69,7 +80,7 @@
 
 @media (max-width: 440px) {
     .present {
-        padding: 66px 0 65px 0;
+        padding: 110px 0 65px 0;
     }
     .present__title {
         font-size: 20px;
@@ -79,9 +90,16 @@
     .present__text {
         font-size: 14px;
         line-height: 20px;
-        margin-bottom: 54px;
+        margin-bottom: 55px;
         height: 77px;
         overflow: hidden;
         padding-left: 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .present {
+        background: url("../../img/Background_small.jpg") no-repeat;
+        background-size: 320px auto;
     }
 }
